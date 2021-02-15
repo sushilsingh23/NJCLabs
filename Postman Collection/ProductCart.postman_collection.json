@@ -1,0 +1,152 @@
+{
+	"id": "157ad61d-ebb3-bac4-1833-5ea0c9ce8560",
+	"name": "ProductCart",
+	"description": "",
+	"order": [
+		"a7efa7e4-4438-7e24-ac61-7cd6fe357551",
+		"b17e5d69-1386-a862-3480-bf1552526f65",
+		"8440ead9-9c67-9f30-7ccd-ef507fbf585b",
+		"1fe56b6e-6541-4cfa-c526-67dbb6534c48",
+		"7ad919ea-0901-847a-9174-0d04247dfe14"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1613408354071,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1fe56b6e-6541-4cfa-c526-67dbb6534c48",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8087/findproduct/A21",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1613409748197,
+			"name": "FindProduct",
+			"description": "",
+			"collectionId": "157ad61d-ebb3-bac4-1833-5ea0c9ce8560",
+			"responses": []
+		},
+		{
+			"id": "7ad919ea-0901-847a-9174-0d04247dfe14",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8087/updateproduct/A21",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "157ad61d-ebb3-bac4-1833-5ea0c9ce8560",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UpdateProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1613410391699,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":\"A21\",\n\t\"name\":\"Product1\",\n\t\"model\":\"Ultra Max\",\n\t\"price\":\"500\"\n}"
+		},
+		{
+			"id": "8440ead9-9c67-9f30-7ccd-ef507fbf585b",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8087/deleteproduct/A12",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "157ad61d-ebb3-bac4-1833-5ea0c9ce8560",
+			"data": null,
+			"dataMode": "params",
+			"name": "DeleteProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1613408531807,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a7efa7e4-4438-7e24-ac61-7cd6fe357551",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8087/viewproducts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1613408384586,
+			"name": "ViewAllProducts",
+			"description": "",
+			"collectionId": "157ad61d-ebb3-bac4-1833-5ea0c9ce8560",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "b17e5d69-1386-a862-3480-bf1552526f65",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8087/addproduct",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1613409738345,
+			"name": "AddProduct",
+			"description": "",
+			"collectionId": "157ad61d-ebb3-bac4-1833-5ea0c9ce8560",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"A21\",\n\t\"name\":\"Product1\",\n\t\"model\":\"Ultra\",\n\t\"price\":\"200\"\n}"
+		}
+	]
+}
